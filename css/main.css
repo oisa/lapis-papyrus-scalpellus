@@ -1,0 +1,221 @@
+@import url('https://fonts.googleapis.com/css2?family=Delius&family=Cairo&family=MedievalSharp&family=Modern+Antiqua&display=swap');
+
+body {
+  background-color: rgb(218,211,199);
+  color: rgb(60,20,20);
+  font-family: 'Modern Antiqua',  cursive;
+  max-width: 750px;
+  margin: 0 auto;
+  position: relative;
+}
+
+h1 {
+  font-size: 45px;
+  font-family: 'MedievalSharp', cursive;
+  position: relative;
+  color: rgb(218,211,199);
+  background-color: rgb(60,20,20);;
+  margin: 0;
+  padding: 20px 0px 30px 0px;
+  border-radius: 0px 0px 100px 100px;
+  top: -30px;
+}
+
+h2 {
+  font-size: 20px;
+  padding-bottom: 15px;
+}
+
+.center {
+  margin: 30px 0 30px 0;
+  text-align: center;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.player-options-container {
+  margin-top: 30px;
+  border: solid;
+  border-color: rgb(60,20,20);
+  max-width: 580px;
+  margin: 0 auto;
+  border-radius: 20px 20px 0px 0px;
+  border-bottom-style: none;
+}
+
+.player-options-container p {
+  margin-top: 30px;
+}
+
+.lps-img {
+  padding: 10px 0;
+  max-width: 100px;
+}
+
+button {
+  font-family: inherit;
+  font-size: 20px;
+  padding: 16px 21px 16px 21px;
+  margin-top: 5px;
+  border: solid;
+  border-radius: 30px;
+  border-width: 2px;
+  cursor: pointer;
+  transition: .15s;
+  outline: none;
+  text-align: center;
+  max-width: 150px;
+}
+
+.option{
+  display: inline-block;
+  margin: 10px 10px 10px 10px;
+  max-width: 150px;
+  height: 200px;
+}
+
+#Lapis {
+  background-color: rgb(102,93,30);
+  color: rgb(218,211,199);
+}
+
+#Lapis:hover {
+  background-color: rgb(218,211,199);
+  color: rgb(102,93,30);
+  transition: .15s;
+  cursor: url("https://res.cloudinary.com/ginctrl/image/upload/c_scale,w_30/Lapis_s9q6to.png"), pointer;
+}
+
+#Papyrus {
+  background-color: rgb(101,67,33);
+  color: rgb(218,211,199);
+}
+
+#Papyrus:hover {
+  background-color: rgb(218,211,199);
+  color: rgb(101,67,33);
+  transition: .15s;
+  cursor: url("https://res.cloudinary.com/ginctrl/image/upload/c_scale,w_25/Papyrus_znp9en.png"), pointer;
+}
+
+#Scalpellus {
+  background-color: rgb(60,20,20);
+  color: rgb(218,211,199);
+}
+
+#Scalpellus:hover {
+  background-color: rgb(218,211,199);
+  color: rgb(60,20,20);
+  transition: .15s;
+  cursor: url("https://res.cloudinary.com/ginctrl/image/upload/c_scale,w_27/Scalpellus_ubnfci.png"), pointer;
+}
+}
+
+#resultsCSS {
+  padding: 5px 0;
+  font-size: 20px;
+  text-align: center;
+  font-style: italic;
+  transition: all .15s;
+}
+
+.results-container {
+  background-color: rgb(60,20,20);
+  color: rgb(218,211,199);
+  margin-top: 30px;
+  border: solid;
+  border-color: rgb(60,20,20);
+  max-width: 580px;
+  margin: 0 auto;
+  border-radius: 0px 0px 20px 20px;
+}
+
+.results-win {
+  background-color: rgb(59,122,87);
+  border-color: rgb(60,20,20);
+}
+
+.results-lose {
+  background-color: rgb(175,0,42);
+  border-color: rgb(60,20,20);
+}
+
+.results-draw {
+  background-color: rgb(255,191,0);
+  border-color: rgb(60,20,20);
+  color: rgb(60,20,20);
+}
+
+#resultsCSS {
+  padding: 5px 18px 5px 18px;
+  font-size: 16px;
+}
+
+.reset-container{
+  margin-bottom: 100px;
+}
+
+#reset-button {
+  font-size: 15px;
+  padding: 10px 15px 10px 15px;
+  max-width: 100px;
+  background-color: rgb(218,211,199);
+  color: rgb(60,20,20);
+}
+
+#reset-button:hover {
+  background-color: rgb(60,20,20);
+  color: rgb(218,211,199);
+  transition: .15s;
+}
+
+.footer {
+  position: absolute;
+  bottom: -40px;
+  width: 100%;
+  height: 0px;
+  text-align: center;
+}
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 580px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+
+    h1 {
+      font-size: 35px;
+    }
+
+    .option {
+      max-width: 90px;
+      text-align: center;
+    }
+
+    .lps-img {
+      max-width: 80px;
+    }
+
+     button {
+     max-width: 100px;
+     font-size: 13px;
+     padding: 16px 16px 16px 16px;
+    }
+
+    .player-options-container {
+      margin: 6px 6px 0 6px;
+      padding: 0 10px 0 10px;
+    }
+
+    .results-container {
+      margin: 0 6px 0 6px;
+      padding: 0 5px 0 5px;
+    }
+
+    .byline {
+      margin: -10px 0 -5px 0;
+      padding: 0 20px 0 20px;
+    }
+
+}
