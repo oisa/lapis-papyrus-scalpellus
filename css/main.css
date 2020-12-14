@@ -111,7 +111,6 @@ button {
   transition: .15s;
   cursor: url("https://res.cloudinary.com/ginctrl/image/upload/c_scale,w_27/Scalpellus_ubnfci.png"), pointer;
 }
-}
 
 #resultsCSS {
   padding: 5px 0;
